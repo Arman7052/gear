@@ -63,9 +63,23 @@
 }
 
 .camera {
-    padding-top: 75px;
+    padding-top: 60px;
     background-image: url(../images/Circle\ design.svg);
     background-repeat: no-repeat;
     padding-right: 132px;
-    background-position-y: center;
+    background-position-y: bottom;
+    background-position-x: left;
+}
+
+/* E-comerce site */
+
+.sites{
+    position: absolute;
+    padding-top: 120px;
+    padding-left: 140px;
+    padding-right: 190px;
+   
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 60px;
 }
