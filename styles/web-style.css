@@ -78,8 +78,6 @@
     padding-top: 120px;
     padding-left: 140px;
     padding-right: 190px;
-   
-    display: grid;
-    grid-template-columns: repeat(7, 1fr);
+    display: flex;
     gap: 60px;
 }
